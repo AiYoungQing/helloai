@@ -70,7 +70,7 @@ class CsYcModelAdd extends React.Component {
       notification.error({
         message: '请上传日历配置文件！'
       });
-      return;
+      
     }
     validateFields(async (errors, values) => {
       if(errors) {
